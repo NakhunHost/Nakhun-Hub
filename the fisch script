@@ -1,28 +1,28 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "sigma fisch script by decryp1",
-   LoadingTitle = "very sigma script",
-   LoadingSubtitle = "by decryp1",
+   Name = "Nakhun Hub (1.0) Dev Version",
+   LoadingTitle = "Loading please wait.",
+   LoadingSubtitle = "by Nakhun",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil,
-      FileName = "decryp1's fisch script"
+      FileName = "Nakhun Hub"
    },
    Discord = {
       Enabled = false,
       Invite = "noinvitelink",
       RememberJoins = true
    },
-   KeySystem = false,
+   KeySystem = true,
    KeySettings = {
-      Title = "Untitled",
+      Title = "Key System Verifications.",
       Subtitle = "Key System",
       Note = "No method of obtaining the key is provided",
       FileName = "Key",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"Hello"}
+      Key = {"NakhunHubKey!123972"}
    }
 })
 
